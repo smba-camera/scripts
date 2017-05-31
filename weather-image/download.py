@@ -2,7 +2,7 @@ import urllib2
 import datetime
 import time
 import sys
-
+#if using accuweather api: 167597
 def downloadPicAndWeather(lat,long,pic_url):
 	img_response = urllib2.urlopen(pic_url)
 	img_data = img_response.read()
